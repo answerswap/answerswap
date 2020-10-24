@@ -1,16 +1,11 @@
 # AnswerSwap 🍣
 
-https://app.Answerswap.org. Feel free to read the code. More details coming soon.
+https://answerswap.org. Feel free to read the code. More details coming soon.
 
 ## Deployed Contracts / Hash
 
-- AnswerToken - https://etherscan.io/token/0x6b3595068778dd592e39a122f4f5a5cf09c90fe2
-- MasterChef - https://etherscan.io/address/0xc2edad668740f1aa35e4d8f227fb8e17dca888cd
-- (Uni|Answer)swapV2Factory - https://etherscan.io/address/0xc0aee478e3658e2610c5f7a4a2e1777ce9e4f2ac
-- (Uni|Answer)swapV2Router02 - https://etherscan.io/address/0xd9e1ce17f2641f24ae83637ab66a2cca9c378b9f
-- (Uni|Answer)swapV2Pair init code hash - `e18a34eb0e04b04f7a0ac29a6e80748dca96319b42c54d679cb821dca90c6303`
-- AnswerBar - https://etherscan.io/address/0x8798249c2e607446efb7ad49ec89dd1865ff4272
-- AnswerMaker - https://etherscan.io/address/0x54844afe358ca98e4d09aae869f25bfe072e1b1a
+- AnswerToken - https://etherscan.io/tx/0xefc42937ca0cfb3315d5cc2ad8aab40d60e7823c2ac6d1d5aa7eaef55be06996 
+- MasterChef - https://etherscan.io/tx/0xf8123a1aa58f66186e6a755f03ccd50a509db272b6e30badd83aca4569f3dc2b
 
 ## License
 
