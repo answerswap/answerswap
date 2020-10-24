@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"name": "receiveType",
+						"type": "uint8"
+					}
+				],
+				"name": "onHINTReceived",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"name": "message",
+						"type": "string"
+					},
+					{
+						"indexed": true,
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "receiveType",
+						"type": "uint8"
+					}
+				],
+				"name": "LogOnReceiveHINT",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {},
+			"title": "HINTDappSample"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/WHint.sol": "HINTDappSample"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/WHint.sol": {
+			"keccak256": "0xbf652aa8d39f72361b88932bf3cc2347b9a083c79777e74133f4b07b73819964",
+			"urls": [
+				"bzzr://b7e77f4265f28cb1d76f0eb4b5fa9d7a8f13db54cc36d94a4d1ebd17d1daa42a"
+			]
+		}
+	},
+	"version": 1
+}

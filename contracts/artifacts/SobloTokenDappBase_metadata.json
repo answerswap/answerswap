@@ -1,0 +1,107 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"name": "receiveType",
+						"type": "uint8"
+					}
+				],
+				"name": "onSobloTokenReceived",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"name": "sobloToken",
+						"type": "address"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "owner",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "spender",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					},
+					{
+						"indexed": false,
+						"name": "receiveType",
+						"type": "uint8"
+					}
+				],
+				"name": "LogOnReceivedSobloToken",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {},
+			"title": "SobloTokenDappBase"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/SobloToken.sol": "SobloTokenDappBase"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/SobloToken.sol": {
+			"keccak256": "0x4cda58d3b01c3cc2cf4e86a5342df6b02f277d5b401109fda145cdd7d307e1d4",
+			"urls": [
+				"bzzr://4bbb34b2dfbc30dbb9e03a6b1d55b762e5858013a4be5e77f16a3c26fccf4278"
+			]
+		}
+	},
+	"version": 1
+}

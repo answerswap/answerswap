@@ -1,0 +1,134 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "totalSupply",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"name": "_owner",
+						"type": "address"
+					}
+				],
+				"name": "balanceOf",
+				"outputs": [
+					{
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"name": "_value",
+						"type": "uint256"
+					}
+				],
+				"name": "transfer",
+				"outputs": [
+					{
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"name": "from",
+						"type": "address"
+					},
+					{
+						"indexed": true,
+						"name": "to",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "Transfer",
+				"type": "event"
+			}
+		],
+		"devdoc": {
+			"methods": {
+				"balanceOf(address)": {
+					"details": "Gets the balance of the specified address.",
+					"params": {
+						"_owner": "The address to query the the balance of."
+					},
+					"return": "An uint256 representing the amount owned by the passed address."
+				},
+				"totalSupply()": {
+					"details": "Total number of tokens in existence"
+				},
+				"transfer(address,uint256)": {
+					"details": "Transfer token for a specified address",
+					"params": {
+						"_to": "The address to transfer to.",
+						"_value": "The amount to be transferred."
+					}
+				}
+			},
+			"title": "Basic token"
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/SobloToken.sol": "BasicToken"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/SobloToken.sol": {
+			"keccak256": "0x4cda58d3b01c3cc2cf4e86a5342df6b02f277d5b401109fda145cdd7d307e1d4",
+			"urls": [
+				"bzzr://4bbb34b2dfbc30dbb9e03a6b1d55b762e5858013a4be5e77f16a3c26fccf4278"
+			]
+		}
+	},
+	"version": 1
+}

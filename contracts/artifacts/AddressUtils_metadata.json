@@ -1,0 +1,36 @@
+{
+	"compiler": {
+		"version": "0.4.24+commit.e67f0147"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/SobloToken.sol": "AddressUtils"
+		},
+		"evmVersion": "byzantium",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"localhost/contracts/SobloToken.sol": {
+			"keccak256": "0x4cda58d3b01c3cc2cf4e86a5342df6b02f277d5b401109fda145cdd7d307e1d4",
+			"urls": [
+				"bzzr://4bbb34b2dfbc30dbb9e03a6b1d55b762e5858013a4be5e77f16a3c26fccf4278"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,194 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "contract IUniswapV2Factory",
+						"name": "_factory",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_bar",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_Answer",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "_weth",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "Answer",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "bar",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "token0",
+						"type": "address"
+					},
+					{
+						"internalType": "address",
+						"name": "token1",
+						"type": "address"
+					}
+				],
+				"name": "convert",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "factory",
+				"outputs": [
+					{
+						"internalType": "contract IUniswapV2Factory",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "weth",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"localhost/contracts/AnswerMaker.sol": "AnswerMaker"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/math/SafeMath.sol": {
+			"keccak256": "0x9a9cf02622cd7a64261b10534fc3260449da25c98c9e96d1b4ae8110a20e5806",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://2df142592d1dc267d9549049ee3317fa190d2f87eaa565f86ab05ec83f7ab8f5",
+				"dweb:/ipfs/QmSkJtcfWo7c42KnL5hho6GFxK6HRNV91XABx1P7xDtfLV"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x5c26b39d26f7ed489e555d955dcd3e01872972e71fdd1528e93ec164e4f23385",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://efdc632af6960cf865dbc113665ea1f5b90eab75cc40ec062b2f6ae6da582017",
+				"dweb:/ipfs/QmfAZFDuG62vxmAN9DnXApv7e7PMzPqi4RkqqZHLMSQiY5"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/SafeERC20.sol": {
+			"keccak256": "0xf3b30f8a49631420635a8c35daacfcaa338012755f18a76fdd118730256f9a27",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://0d7de652204c2ee291a61aa984103dfc7ae4392d651fbbc44a0079caee7c69a3",
+				"dweb:/ipfs/Qmcw1cQnq9eWDnrCBwU3TNyqLfTMUFg5YKpYUkELoMPuUE"
+			]
+		},
+		"@openzeppelin/contracts/utils/Address.sol": {
+			"keccak256": "0xf5fa8cbdffa5ef8be49b246b5628facc30b71707e78a45d80d93b64eff3fe390",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://774e78a9ff32792cc95db4d2ceaf3a7965bb7f0bea5e6cb7cff182b450d44b37",
+				"dweb:/ipfs/QmRRMC4uj7eAcLW7chynA3sNEYULMFazdLwQHKHQPyzAbA"
+			]
+		},
+		"localhost/contracts/AnswerMaker.sol": {
+			"keccak256": "0x48a7dec5ee7149b32c46065d30d4adb43acfe31c99d0b93829dc05e06a474d12",
+			"urls": [
+				"bzz-raw://1dd3fd95b2f850de16f8b112de16afb1add1f01bbb501fc24a8097792bddda6f",
+				"dweb:/ipfs/QmTcL5vvQsmipdS2PMC3112Xcq2bka1yCHi4St1vTdvUKF"
+			]
+		},
+		"localhost/contracts/uniswapv2/interfaces/IUniswapV2ERC20.sol": {
+			"keccak256": "0x73fc05d8d69b5b246674e6d7c3f3c96b3621456fca094ba0f05a4a4e3b16697d",
+			"urls": [
+				"bzz-raw://c3ff10631c19d0b2b7bc73a92e9338e9ce9148ea62c7ace09a4f3be026ec5f6e",
+				"dweb:/ipfs/QmQ2Mex8PDTFusFy6BPugrNMjkRxLrDvcxoV4dkM9RnmTu"
+			]
+		},
+		"localhost/contracts/uniswapv2/interfaces/IUniswapV2Factory.sol": {
+			"keccak256": "0x72e2361bc17535b5f65d8f95ab9c4cabcfd1744fcd2f3fe799e6661e3ca0a0ca",
+			"urls": [
+				"bzz-raw://27850e412193af50bcdb02cddbf79ac127512c51f0d6e0b04b01a028e13db99c",
+				"dweb:/ipfs/QmYAbQT76qrhwLiFUJC9K88f39SZAQ2uZpY2i57hrbvDUW"
+			]
+		},
+		"localhost/contracts/uniswapv2/interfaces/IUniswapV2Pair.sol": {
+			"keccak256": "0x95203b071357552345aa2c4b2afd770ce49d671f41fc370e06112a37a4f6709f",
+			"urls": [
+				"bzz-raw://790eb900446171b7e51321e7ca8c14e96fbd89b3adc47c79e635f026ab59882e",
+				"dweb:/ipfs/QmeSWaEyNPeEbDzkiwd8gNiwRfygFTeackeN53H8GwTrEs"
+			]
+		}
+	},
+	"version": 1
+}
